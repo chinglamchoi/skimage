@@ -4,11 +4,9 @@
 - Comparing pre & post RAG segmentations
 
 """
-from skimage import graph, data, io, segmentation, color, filters, util
+from skimage import data, color
 from skimage.segmentation import felzenszwalb, slic, quickshift
 from skimage.future import graph
-from skimage.measure import regionprops
-from skimage import draw
 import numpy as np 
 from matplotlib import pyplot as plt
 
